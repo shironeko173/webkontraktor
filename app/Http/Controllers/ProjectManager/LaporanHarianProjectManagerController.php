@@ -56,7 +56,7 @@ class LaporanHarianProjectManagerController extends Controller
         return view('backend.projectmanager.laporan.laporan_harian.view', compact('i','identify','data_pkr','data_cba','data_kjpp','data_pk','data_pk','data_pr','data_tmpb'));
      }
 
-    //  untuk memverifikasi laporan hariann
+    //  untuk memverifikasi laporan harian
      public function laporanHarian_pending($idproject){
         $i = 1;
      //    $laporan = DB::table('laporan_project')
