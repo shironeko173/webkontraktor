@@ -56,13 +56,13 @@
                             @endif
                             @if ($item->status == 'Belum Dikirim')
                                 <td style="text-align: center;">
-                                    <a href="/Upload/laporanProgress/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
+                                    <a href="/storage/laporanProgress/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
                                     <a href="/stafflapangan/kirimlaporan/{{ $item->id_laporan }}"class="btn btn-success btn-sm"><i class="bi bi-send"></i></i></a>
                                     <a href="/stafflapangan/hapus/{{ $item->id_laporan }}"class="btn btn-sm btn-danger"><i class="bi bi-x-lg"></i></i></a>
                                 </td>
                             @else
                                 <td style="text-align: center;">
-                                  <a href="/Upload/laporanProgress/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
+                                  <a href="/storage/laporanProgress/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
                                 </td>
                             @endif
 

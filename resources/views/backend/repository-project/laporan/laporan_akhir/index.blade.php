@@ -68,7 +68,7 @@
                             @endif
                            
                                 <td style="text-align: center;">
-                                    <a href="/Upload/laporanAkhir/{{ $item->dokumen }}" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
+                                    <a href="/storage/laporanAkhir/{{ $item->dokumen }}" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
                                 </td>
 
                         </tr>

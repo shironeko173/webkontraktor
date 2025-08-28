@@ -35,7 +35,7 @@ class LaporanAkhirProjectManagerController extends Controller
 
         $file = $request->file('filelaporan');
         $filename = $idlaporan.'-'.$file->getClientOriginalName();
-        $file->move('Upload/laporanAkhir/', $filename);
+        $file->storeAs('laporanAkhir', $filename, 'public');
         
         // DB::table('laporan_project')->insert([
         //     'id_laporan' => $idlaporan,

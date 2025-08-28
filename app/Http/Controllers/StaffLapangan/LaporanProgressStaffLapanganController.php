@@ -25,7 +25,7 @@ class LaporanProgressStaffLapanganController extends Controller
 
     $file = $request->file('filelaporan');
     $filename = $idlaporan.'-'.$file->getClientOriginalName();
-    $file->move('Upload/laporanProgress/', $filename);
+    $file->storeAs('laporanProgress', $filename, 'public');
     
     // DB::table('laporan_project')->insert([
     //     'id_laporan' => $idlaporan,

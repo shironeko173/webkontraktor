@@ -39,7 +39,7 @@
                   <td>{{ $i++ }}</td>
                   <td>{{ $item->name }}</td>
                   <td>{{ Carbon\Carbon::parse($item->waktu_dikirim)->format('d M Y - H:i:s') }}</td>
-                  <td><a href="/Upload/laporanProgress/{{ $item->dokumen }}" style="font-size: 0.7rem;" class="btn rounded-pill btn-info">View</a></td>
+                  <td><a href="/storage/laporanProgress/{{ $item->dokumen }}" style="font-size: 0.7rem;" class="btn rounded-pill btn-info">View</a></td>
                   <td>
                     <a href="/projectmanager/Laporan-Accept/{{ $item->id_laporan }}" style="font-size: 0.7rem;" class="btn rounded-pill btn-success">Accept</a>
                     <a href="/projectmanager/Laporan-Decline/{{ $item->id_laporan }}" style="font-size: 0.7rem;" class="btn rounded-pill btn-danger">Decline</a>

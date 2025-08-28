@@ -25,7 +25,7 @@ class DokumenStaffLapanganController extends Controller
 
     $file = $request->file('filelaporan');
     $filename = $idlaporan.'-'.$file->getClientOriginalName();
-    $file->move('Upload/dokumenTambahan/', $filename);
+    $file->storeAs('dokumenTambahan', $filename, 'public');
     
     // DB::table('laporan_project')->insert([
     //     'id_laporan' => $idlaporan,
