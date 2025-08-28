@@ -36,7 +36,7 @@ Route::get('/project', function () {
 Route::get('/contact', function () {
     return view('contact'); });
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/form', [App\Http\Controllers\NegoisasiController::class, 'index'])->name('form');
+Route::get('/form', [App\Http\Controllers\NegoisasiController::class, 'index']);
 Route::post('/kirimemail', [App\Http\Controllers\NegoisasiController::class, 'negoisasi'])->name('form');
 
 // AKUN USER
