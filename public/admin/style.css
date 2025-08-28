@@ -1,0 +1,37 @@
+#formpekerjaan{
+    z-index: 10000;
+
+}
+#formtmpb{
+    z-index: 10000;
+
+}
+#formpr{
+    z-index: 10000;
+
+}
+#formpk{
+    z-index: 10000;
+    position: relative;
+}
+#formpkr{
+    z-index: 10000;
+
+}
+#formcba{
+    z-index: 10000;
+
+}
+#formkjpp{
+    z-index: 10000;
+
+}
+.popup{
+    display: none;
+}
+.blur{
+    filter: blur(5px) !important;
+}
+body.blur > *:not(.form-popupup):not(#formpekerjaan) {
+    filter: blur(5px) !important;
+  }
