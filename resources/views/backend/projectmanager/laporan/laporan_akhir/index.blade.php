@@ -65,7 +65,7 @@
                            
                                 <td style="text-align: center;">
                                     <a href="/projectmanager/LA-hapus/{{ $item->id_laporan }}"class="btn btn-sm btn-danger"><i class="bi bi-x-lg"></i></i></a>
-                                    <a href="/Upload/laporanAkhir/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
+                                    <a href="/storage/laporanAkhir/{{ $item->dokumen }}" target="_blank" class="btn btn-primary btn-sm"><i class="bi bi-eye"></i></a>
                                 </td>
 
                         </tr>
