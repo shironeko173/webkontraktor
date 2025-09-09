@@ -12,7 +12,7 @@ use App\Http\Controllers\StaffLapangan\LaporanRABStaffLapanganController;
 
 /*
 |--------------------------------------------------------------------------
-| Web Routesa
+| Web Route
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
